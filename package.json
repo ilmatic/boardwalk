@@ -1,0 +1,21 @@
+{
+  "name": "boardwalk",
+  "description": "A lightweight Javascript library for handling rich properties.",
+  "author": "Isaac Lee Morris",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilmatic/boardwalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilmatic/boardwalk/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "1.12.0",
+    "grunt-mocha-test": "~0.6.3",
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}
