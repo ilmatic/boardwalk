@@ -1,0 +1,10 @@
+{
+  "name": "boardwalk",
+  "version": "0.0.2",
+  "main": "src/boardwalk.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

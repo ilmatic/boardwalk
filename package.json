@@ -3,6 +3,7 @@
   "description": "A lightweight Javascript library for handling rich properties.",
   "author": "Isaac Lee Morris",
   "version": "0.0.2",
+  "main": "src/boardwalk.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ilmatic/boardwalk.git"
