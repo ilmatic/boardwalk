@@ -41,7 +41,6 @@ var object2 = {
 /* Pass in objects as an array. */
 var result = boardwalk.intersect([object1, object2]);
 
-console.log(result);
 /* Result object. */
 {
 	owner: {
@@ -57,6 +56,7 @@ console.log(result);
 * Find intersection of multiple objects
 
 ```javascript
+/* First example object. */
 var object1 = {
 	owner: {
 		first_name: 'John',
@@ -64,6 +64,7 @@ var object1 = {
 	}
 };
 
+/* Second example object. */
 var object2 = {
 	owner: {
 		first_name: 'John',
@@ -71,6 +72,7 @@ var object2 = {
 	}
 };
 
+/* Third example object. */
 var object3 = {
 	owner: {
 		first_name: 'John',
@@ -78,6 +80,7 @@ var object3 = {
 	}
 };
 
+/* Fourth example object. */
 var object4 = {
 	owner: {
 		first_name: 'Ronald',
@@ -101,6 +104,7 @@ var result = boardwalk.intersect([object1, object2, object3, object4]);
 /* First example array. */
 var array1 = ['abc', 'def', 'ghi'];
 
+/* Second example array. */
 var array2 = ['def', 'jkl', 'mno'];
 
 var result = boardwalk.intersect([array1, array2]);
@@ -121,6 +125,7 @@ var object1 = {
 	}		
 };
 
+/* Second example object. */
 var object2 = {
 	owner: {
 		first_name: 'Franklin',
@@ -143,6 +148,7 @@ var result = boardwalk.intersect([object1, object2]);
 * Pass a generic property that will match wherever it is found in object graphs:
 
 ```javascript
+/* First example object. */
 var object1 = {
 	owner: {
 		first_name: 'George',
@@ -150,6 +156,7 @@ var object1 = {
 	}
 };
 
+/* Second example object. */
 var object2 = {
 	owner: {
 		first_name: 'George',
@@ -157,6 +164,7 @@ var object2 = {
 	}
 };
 
+/* Pass in generic property on options object. */
 var options = { generic: 'Washington' };
 
 var result = boardwalk.intersect([object1, object2], options);
